@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color:#FF6699;
+}
+  
+  a {
+    text-decoration: none;
+  }
+.header {
+    background-color:black;
+    height: 100px;
+    color:red;
+    font-size: 50px;
+  
+}
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+  }
+  .top-wrapper{
+    padding-top:180px;
+    padding-bottom: 180px;
+    background-image:url(http://tamilnaduadmissions.com/wp-content/uploads/2015/11/sathyabama-University-admissions.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
+  
+  }
+  .top-wrapper h1{
+    
+    font-size:60px;
+    letter-spacing:10px;
+    margin-bottom:10px;
+    color:black;
+    
+  }
+  .top-wrapper h3{
+    
+    margin-bottom:3px;
+    color:black;
+    font-size: 35px;
+    
+  }
+  .top-wrapper h2{
+ font-size:35px;
+ 
+  }
+  .message h1{
+      font-size:77px;
+      letter-spacing: 27px;
+    
+      height:100px;
+      background-color: tomato;
+      color:yellow;
+
+  }
+.message h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:50px;
+    background-color: thistle;
+    font-size: 30px;
+}
+.message2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:55px;
+    background-color: thistle;
+    font-size: 25px;
+
+}
+.message3{
+  height:55px;
+  background-color: yellow;
+  color:black;
+  letter-spacing: 20px;
+}
+.message4 {
+  font-size:35px;
+}
+.lesson{
+  width: 30%;
+  float:left;
+}
+
+.lesson-wrapper {
+  height: 800px;
+  padding-bottom: 80px;
+  background-color:#33FFCC;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.lesson-icon {
+  position: relative;
+}
+
+
+/* Add CSS for <p> tags inside lesson-icon */
+.lesson-icon p{
+  position: absolute;
+  top: 90px;
+  width:100%;
+  color:white;
+  
+  
+}
+
+.txt-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+  color:#b3aeb5;
+}
+.entry{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height:60px;
+  background-color: black;
+  font-size: 25px;
+  color:red;
+  letter-spacing: 7px;
+
+}
+.register h1{
+  letter-spacing: 5px;
+}
+
+
+.contact-submit{
+  background-color:red;
+  color:white;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 12px;
+  box-shadow: 0px 10px red;
+  border-radius: 20px;
+  font-weight: bolder;
+ 
+
+}
+.contact-submit:hover{
+  color: black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+input {
+  width:400px;
+  margin-top: 10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size: 18px;
+  border:1px solid violet;
+  
+}
+.contact-form{
+  text-align: center;
+}
+.now{
+  height:145px;
+  background-color: black;
+  color: red;
+  letter-spacing: 22px;
+font-size:28px;
+}
+span{
+  color: black;
+}
+
+
+.picture{
+  width: 30%;
+  float:left;
+}
+
+
+.picture-icon {
+  position: relative;
+}
+
+
+/* Add CSS for <p> tags inside lesson-icon */
+.picture-icon p{
+  position: absolute;
+  top: 90px;
+  width:100%;
+  color:white;
+  
+  
+}
+
+.txt-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+  color:#b3aeb5;
+}
+.picture-wrapper {
+  height:600px;
+  padding-bottom: 80px;
+  background-color:yellow;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.now-wrapper{
+  background-color:#9966CC;
+}
