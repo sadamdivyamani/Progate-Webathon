@@ -1,0 +1,263 @@
+pre {
+  color: #ffffff;
+  background-color: #000000;
+  border: 5px solid #021244;
+  margin-bottom: 0;
+  height: 400px;
+}
+body {
+  background-color: gray;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.title{
+  margin-bottom: 50px;
+}
+/*nav bar*/
+.navbar {
+  margin-bottom: 50px;
+}
+.navbar-light .navbar-brand {
+  color: #002b36;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: -.7px;
+  word-spacing: -2px;
+}
+.navbar-brand div {
+  color: green;
+  display: inline;
+}
+.navbar .row {
+  width: 100%;
+}
+/*language buttons */
+.language {
+  margin: 0 auto;
+  width: 330px;
+}
+.language p {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  margin-right: 10px;
+}
+.language > div{
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.disappear {
+  visibility: hidden;
+}
+.hide{
+  display: none;
+}
+/* instructions */
+.btn-lg {
+  font-size: 1rem;
+}
+.btn-danger {
+  background-color: #292929;
+}
+/*window tabs*/
+.row {
+  margin:0;
+}
+.tabs {
+  position: relative;
+  top: 10px;
+  right: 2px;
+  height:45px;
+  overflow:visible;
+  z-index: 1;
+}
+.tab {
+  width:200px;
+  height:45px;
+  overflow:hidden;
+  float:left;
+  margin: 0 -15px 0 0;
+}
+
+.tab-box {
+  height:36px;
+  background: #292929;
+  border-radius: 1px;
+  border:1px solid #484848;
+  margin:0 10px 0;
+  color: white;
+  -webkit-transform: perspective(100px) rotateX(30deg);
+  -moz-transform: perspective(100px) rotateX(30deg);
+}
+.tab .activetab {
+  border-bottom: 1px solid #292929;
+}
+.tabindex {
+  position: relative;
+  top: 40px;
+  left: 1px;
+  z-index: 2;
+}
+.tabjs, .tabindex, .tabcss {
+  position: relative;
+  top: 41px;
+  left: 18px;
+  z-index: 2;
+}
+.index{
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+}
+.tabindex .html {
+  width: 23px;
+}
+.tabjs .html {
+  width: 14px;
+  margin-right: 3px;
+}
+.tabcss .html {
+  width: 20px;
+}
+.closeicon {
+  margin-left: 47px;
+}
+.closeiconjs {
+  margin-left: 55px;
+}
+.closeiconcss {
+  margin-left: 55px;
+}
+/* end of tabs*/
+
+/* window bootstrap alignments, primarily for line counter*/
+.col-sm-1 {
+  background-color: #1e404b;
+  padding: 0;
+  margin: 0;
+}
+.col-sm-11 {
+  margin: 0;
+  padding:0;
+}
+.col-sm-1 p {
+  color: #93a1a1;
+  font-size: .95rem;
+  margin: 2px;
+  padding-left: 13px;
+}
+#first {
+  margin-top: 5px;
+}
+
+/*code styles*/
+.start {
+  position: relative;
+  left: 110px;
+  bottom: 70px;
+  color: #b58900;
+}
+.blinker {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1,0,0,1);
+  animation-duration: 1s;
+  display: inline-block;
+  width: 3px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(white,.3);
+  background: #b58900;
+}
+
+@keyframes blinker {
+  from { opacity: 1.0; } to { opacity: 0.0; }
+}
+.correct {
+  color: #93a1a1;
+}
+.return:before {
+  content: '\23CE';
+  color: #fdf6e3;
+  padding: .1em .4em;
+  font-weight: bold;
+}
+.active{
+  color: white;
+  background-color: #b58900;
+}
+pre span {
+  padding: .1em 0;
+  font-size: 16px;
+}
+.incorrect{
+  background-color: #dc322f;
+}
+
+/*statistics bottom row*/
+.statistics{
+  background-color: #292929;
+}
+.accuracy,.clock, .speed, .errors{
+  color: white;
+  font-size: 18px;
+}
+.rankgif {
+  width:100%;
+}
+.rank {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+/*footer*/
+footer {
+  padding: 30px 0;
+  font-size: 14px;
+  color: white;
+  margin-top: 100px;
+  background-color: #292929;
+}
+footer h3 {
+  color: #f29519;
+  font-size: 22px;
+}
+footer a {
+  color: #93a1a1;
+}
+footer img {
+  margin-right: 10px;
+  position: relative;
+  bottom: 2px;
+}
+/*buttons */
+.results {
+  background: #292929;
+  color: white;
+}
+.restart {
+  background: green;
+}
+#statsbutton {
+  background: green;
+  margin: 30px 0 0 60px;
+}
+#stats {
+
+}
+/*modal style*/
+.commonerror {
+  position: relative;
+  left: 50px;
+}
+.csscontainer{
+  margin: 30px 0;
+}
