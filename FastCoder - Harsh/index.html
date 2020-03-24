@@ -1,0 +1,130 @@
+
+      <title>FastCoder</title>
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="./style.css">
+          <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+            <link rel="stylesheet" href="./CSS/styles.css">
+            </head>
+            <nav class="navbar navbar-light bg-light">
+              <div class="container">
+                <div class="row">
+                  <div class="navbar-header col-sm-2">
+                    
+                    <a class="navbar-brand" href="index.html">
+                      Fast<div>Coder</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <body>
+              <audio id="mysoundclip" src="./audio/type.mp3"></audio>
+              <div class="container-fluid text-center title">
+                <img src="coder.svg" alt="Coder" height="100" width="100">
+                <h1>FastCoder</h1>
+                <h2>A Typing Game to see how fast a Coder you are!</h2>
+              </div>
+              <div class="container">
+                <!-- Choose language 
+                
+                
+
+                
+                -->
+                <div class="language">
+                  <h2>Pick to kickstart!</h2>
+                  <button class="btn btn-primary btn-lg active htmlinit" role="button" aria-pressed="true">HTML</button>
+                  <button class="btn btn-primary btn-lg active cssinit" role="button" aria-pressed="true">CSS</button>
+                  <button class="btn btn-primary btn-lg active jsinit" role="button" aria-pressed="true">Javascript</button>
+                  <div>
+                    <p>First Time?</p>
+                    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Instructions" data-content="Easy-Peasy! Just choose one language and you will have 60 Seconds to type in the code given in the Box. Best of Luck! You can do it!">Instructions</a>
+                    <button type="button" class="btn btn-primary" id="statsbutton" data-toggle="modal" data-target="#stats">
+            High Scores
+          </button>
+                  </div>
+                  <!-- Stats Modal -->
+                  <div class="modal fade" id="stats" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header statsmodal">
+                          <h5 class="modal-title" id="statsLabel">High Scores</h5>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div>HTML Rank</div>
+                              </div>
+                              <div class="col-md-6 ml-auto">
+                                <div>Characters Per Minute
+                    </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="htmlrank">none</div>
+                              </div>
+                              <div class="col-md-6 ml-auto">
+                                <div class="htmlspeed">none
+                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="container-fluid csscontainer">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div>CSS Rank</div>
+                              </div>
+                              <div class="col-md-6 ml-auto">
+                                <div>Characters Per Minute
+                    </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="cssrank">none</div>
+                              </div>
+                              <div class="col-md-6 ml-auto">
+                                <div class="cssspeed">none
+                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div>Javascript Rank</div>
+                              </div>
+                              <div class="col-md-6 ml-auto">
+                                <div>Javascript CPM
+                    </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="jsrank">none</div>
+                              </div>
+                              <div class="col-md-6 ml-auto">
+                                <div class="jsspeed">none
+                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+              <script type="text/javascript" src="./Javascript/logic.js"></script>
+              <script type="text/javascript" src="./Javascript/game.js"></script>
+            </body>
+          </html>
